@@ -9,26 +9,35 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var priceLabel: UILabel!
+    
+    @IBAction func refreshPrice(_ sender: Any) {
+        fetchPrice()
+    }
     
     let numberFormatter = NumberFormatter()
     
+    private var price: String = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        fetchPrice()
+    }
+    
+    
+    func fetchPrice() {
         if let url = URL(string: "https://blockchain.info/ticker") {
             let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
                 if error == nil {
-                    print("Sucess")
-                    
                     do {
                         let dataDecoded = try JSONDecoder().decode(Currency.self, from: data!)
                         if let buyPrice = self.formatNumberToBRLString(number: dataDecoded.currencyDetails.buy) {
-                            print(buyPrice)
+                            self.priceLabel.text = buyPrice
                         }
                         
-                    } catch { }
+                    } catch { self.priceLabel.text = "Error" }
                 } else {
-                    print("Error")
+                    self.priceLabel.text = "Error"
                 }
             }
             task.resume()
