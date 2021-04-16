@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF37C1AD262A39A20050C1FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF37C1AC262A39A20050C1FC /* AppDelegate.swift */; };
+		DF37C1AF262A39A20050C1FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF37C1AE262A39A20050C1FC /* SceneDelegate.swift */; };
+		DF37C1B1262A39A20050C1FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF37C1B0262A39A20050C1FC /* ViewController.swift */; };
+		DF37C1B4262A39A20050C1FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF37C1B2262A39A20050C1FC /* Main.storyboard */; };
+		DF37C1B7262A39A20050C1FC /* BitCoin_Price.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF37C1B5262A39A20050C1FC /* BitCoin_Price.xcdatamodeld */; };
+		DF37C1B9262A39A50050C1FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF37C1B8262A39A50050C1FC /* Assets.xcassets */; };
+		DF37C1BC262A39A50050C1FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF37C1BA262A39A50050C1FC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF37C1A9262A39A20050C1FC /* BitCoin Price.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BitCoin Price.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF37C1AC262A39A20050C1FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF37C1AE262A39A20050C1FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DF37C1B0262A39A20050C1FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF37C1B3262A39A20050C1FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF37C1B6262A39A20050C1FC /* BitCoin_Price.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BitCoin_Price.xcdatamodel; sourceTree = "<group>"; };
+		DF37C1B8262A39A50050C1FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF37C1BB262A39A50050C1FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF37C1BD262A39A50050C1FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF37C1A6262A39A20050C1FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF37C1A0262A39A20050C1FC = {
+			isa = PBXGroup;
+			children = (
+				DF37C1AB262A39A20050C1FC /* BitCoin Price */,
+				DF37C1AA262A39A20050C1FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF37C1AA262A39A20050C1FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF37C1A9262A39A20050C1FC /* BitCoin Price.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF37C1AB262A39A20050C1FC /* BitCoin Price */ = {
+			isa = PBXGroup;
+			children = (
+				DF37C1AC262A39A20050C1FC /* AppDelegate.swift */,
+				DF37C1AE262A39A20050C1FC /* SceneDelegate.swift */,
+				DF37C1B0262A39A20050C1FC /* ViewController.swift */,
+				DF37C1B2262A39A20050C1FC /* Main.storyboard */,
+				DF37C1B8262A39A50050C1FC /* Assets.xcassets */,
+				DF37C1BA262A39A50050C1FC /* LaunchScreen.storyboard */,
+				DF37C1BD262A39A50050C1FC /* Info.plist */,
+				DF37C1B5262A39A20050C1FC /* BitCoin_Price.xcdatamodeld */,
+			);
+			path = "BitCoin Price";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF37C1A8262A39A20050C1FC /* BitCoin Price */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF37C1C0262A39A50050C1FC /* Build configuration list for PBXNativeTarget "BitCoin Price" */;
+			buildPhases = (
+				DF37C1A5262A39A20050C1FC /* Sources */,
+				DF37C1A6262A39A20050C1FC /* Frameworks */,
+				DF37C1A7262A39A20050C1FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BitCoin Price";
+			productName = "BitCoin Price";
+			productReference = DF37C1A9262A39A20050C1FC /* BitCoin Price.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF37C1A1262A39A20050C1FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					DF37C1A8262A39A20050C1FC = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = DF37C1A4262A39A20050C1FC /* Build configuration list for PBXProject "BitCoin Price" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF37C1A0262A39A20050C1FC;
+			productRefGroup = DF37C1AA262A39A20050C1FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF37C1A8262A39A20050C1FC /* BitCoin Price */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF37C1A7262A39A20050C1FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF37C1BC262A39A50050C1FC /* LaunchScreen.storyboard in Resources */,
+				DF37C1B9262A39A50050C1FC /* Assets.xcassets in Resources */,
+				DF37C1B4262A39A20050C1FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF37C1A5262A39A20050C1FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF37C1B7262A39A20050C1FC /* BitCoin_Price.xcdatamodeld in Sources */,
+				DF37C1B1262A39A20050C1FC /* ViewController.swift in Sources */,
+				DF37C1AD262A39A20050C1FC /* AppDelegate.swift in Sources */,
+				DF37C1AF262A39A20050C1FC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF37C1B2262A39A20050C1FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF37C1B3262A39A20050C1FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF37C1BA262A39A50050C1FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF37C1BB262A39A50050C1FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF37C1BE262A39A50050C1FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF37C1BF262A39A50050C1FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF37C1C1262A39A50050C1FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8C9UMVY9L4;
+				INFOPLIST_FILE = "BitCoin Price/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "caio.teste.BitCoin-Price";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF37C1C2262A39A50050C1FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8C9UMVY9L4;
+				INFOPLIST_FILE = "BitCoin Price/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "caio.teste.BitCoin-Price";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF37C1A4262A39A20050C1FC /* Build configuration list for PBXProject "BitCoin Price" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF37C1BE262A39A50050C1FC /* Debug */,
+				DF37C1BF262A39A50050C1FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF37C1C0262A39A50050C1FC /* Build configuration list for PBXNativeTarget "BitCoin Price" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF37C1C1262A39A50050C1FC /* Debug */,
+				DF37C1C2262A39A50050C1FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DF37C1B5262A39A20050C1FC /* BitCoin_Price.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DF37C1B6262A39A20050C1FC /* BitCoin_Price.xcdatamodel */,
+			);
+			currentVersion = DF37C1B6262A39A20050C1FC /* BitCoin_Price.xcdatamodel */;
+			path = BitCoin_Price.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DF37C1A1262A39A20050C1FC /* Project object */;
+}
