@@ -14,6 +14,7 @@
 		DF37C1B7262A39A20050C1FC /* BitCoin_Price.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF37C1B5262A39A20050C1FC /* BitCoin_Price.xcdatamodeld */; };
 		DF37C1B9262A39A50050C1FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF37C1B8262A39A50050C1FC /* Assets.xcassets */; };
 		DF37C1BC262A39A50050C1FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF37C1BA262A39A50050C1FC /* LaunchScreen.storyboard */; };
+		DF37C1C5262A55800050C1FC /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF37C1C4262A557F0050C1FC /* Currency.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		DF37C1B8262A39A50050C1FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF37C1BB262A39A50050C1FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF37C1BD262A39A50050C1FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF37C1C4262A557F0050C1FC /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				DF37C1AC262A39A20050C1FC /* AppDelegate.swift */,
 				DF37C1AE262A39A20050C1FC /* SceneDelegate.swift */,
 				DF37C1B0262A39A20050C1FC /* ViewController.swift */,
+				DF37C1C4262A557F0050C1FC /* Currency.swift */,
 				DF37C1B2262A39A20050C1FC /* Main.storyboard */,
 				DF37C1B8262A39A50050C1FC /* Assets.xcassets */,
 				DF37C1BA262A39A50050C1FC /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF37C1B7262A39A20050C1FC /* BitCoin_Price.xcdatamodeld in Sources */,
+				DF37C1C5262A55800050C1FC /* Currency.swift in Sources */,
 				DF37C1B1262A39A20050C1FC /* ViewController.swift in Sources */,
 				DF37C1AD262A39A20050C1FC /* AppDelegate.swift in Sources */,
 				DF37C1AF262A39A20050C1FC /* SceneDelegate.swift in Sources */,
